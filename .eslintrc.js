@@ -21,6 +21,7 @@ module.exports = {
     // myadd: always have semicolon
     'semi': ['error', 'always'],
     // myadd: ignore indent config
-    'indent': 0
+    'indent': 0,
+    'space-before-function-paren': 0
   }
 }
