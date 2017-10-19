@@ -40,9 +40,9 @@
         type: Object,
         default() {
           return {
-            all: '',
-            positive: '',
-            negative: ''
+            all: '全部',
+            positive: '满意',
+            negative: '不满意'
           };
         }
       }
