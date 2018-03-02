@@ -134,7 +134,7 @@
           probeType: 3
         });
         this.foodsScroll.on('scroll', (pos) => {
-          this.scrollY = Math.abs(Math.round(pos.y));
+          this.scrollY = Math.round(Math.abs(pos.y));
         });
       },
       _calculateHeight() {
